@@ -7,7 +7,7 @@ const testimonials = [
     title:
       "SquareUp has been Instrumental in Transforming our Online Presence.",
     description:
-      "Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
+      "Their team&apos;s expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn&apos;t be happier.",
     name: "John Smith",
     role: "CEO of Chic Boutique",
     image: "/image/client-1.png",
@@ -42,7 +42,7 @@ export default function Testimonials() {
 
             <p className="mx-auto mt-4 max-w-4xl text-lg leading-8 text-neutral-300">
               At SquareUp, we take pride in delivering exceptional digital
-              products and services that drive success for our clients. Here's
+              products and services that drive success for our clients. Here&apos;s
               what some of our satisfied clients have to say.
             </p>
           </div>
