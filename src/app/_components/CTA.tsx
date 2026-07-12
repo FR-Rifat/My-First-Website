@@ -1,0 +1,52 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function CTA() {
+  return (
+    <section>
+      <div className="mx-36">
+        <div
+          className="border-x border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 md:px-20 xl:px-72"
+          style={{
+            backgroundImage: "url('/image/CTA.png')",
+          }}
+        >
+          <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
+            {/* Logo */}
+            <div className="mb-12">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-lime-400 shadow-[inset_0_0_14px_6px_rgba(255,255,255,0.45)]">
+                <Image
+                  src="/image/logo-icon.svg"
+                  alt="SquareUp Logo"
+                  width={42}
+                  height={42}
+                  className="h-10 w-auto"
+                />
+              </div>
+            </div>
+
+            {/* Heading */}
+            <h2 className="text-3xl font-semibold leading-tight text-white md:text-4xl xl:text-5xl">
+              Thank You for Your Interest in SquareUp
+            </h2>
+
+            {/* Description */}
+            <p className="mt-5 max-w-3xl text-lg leading-8 text-neutral-300">
+              We would love to hear from you and discuss how we can help bring
+              your digital ideas to life. Here are the different ways you can
+              get in touch with us.
+            </p>
+
+            {/* CTA Button */}
+            <Link
+              href="/contact"
+              className="mt-12 rounded-lg bg-lime-400 px-8 py-4 text-lg font-medium text-neutral-900 transition-all duration-300 hover:scale-105 hover:bg-lime-300"
+            >
+              Start Project
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
