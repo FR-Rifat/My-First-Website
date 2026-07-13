@@ -16,7 +16,7 @@ export default function TrustedCompanies() {
         <div className="relative border-x border-b border-neutral-800 bg-neutral-900/20 py-10">
           {/* Badge */}
           <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
-            <div className="rounded-full border border-neutral-800 bg-[#111111] px-8 py-5">
+            <div className="rounded-full border border-neutral-800 bg-[#111111] px-6 py-3 text-center">
               <span className="text-lg font-medium text-white">
                 Trusted By 250+ Companies
               </span>
