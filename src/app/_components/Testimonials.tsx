@@ -31,12 +31,14 @@ export default function Testimonials() {
         <div className="border-x border-b border-neutral-800">
           {/* Header */}
           <div
-            className="border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 text-center md:px-20 xl:px-72"
+            className="relative overflow-hidden border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 text-center md:px-20 xl:px-72"
             style={{
               backgroundImage: "url('/image/Testimonials-bg.png')",
             }}
-          >
-            <h2 className="text-4xl font-semibold text-white md:text-5xl">
+          > {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/65" />
+            <div className="relative z-10">
+              <h2 className="text-4xl font-semibold text-white md:text-5xl">
               What Our Clients Say About Us
             </h2>
 
@@ -45,6 +47,7 @@ export default function Testimonials() {
               products and services that drive success for our clients. Here&apos;s
               what some of our satisfied clients have to say.
             </p>
+            </div>
           </div>
 
           {/* Testimonials */}

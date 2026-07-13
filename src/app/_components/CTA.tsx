@@ -6,12 +6,14 @@ export default function CTA() {
     <section>
       <div className="mx-36">
         <div
-          className="border-x border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 md:px-20 xl:px-72"
+          className="relative overflow-hidden border-x border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 md:px-20 xl:px-72"
           style={{
             backgroundImage: "url('/image/CTA.png')",
           }}
-        >
-          <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
+        > {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/65" />
+          <div className="relative z-10">
+          <div className="mx-auto flex flex-col items-center text-center">
             {/* Logo */}
             <div className="mb-12">
               <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-lime-400 shadow-[inset_0_0_14px_6px_rgba(255,255,255,0.45)]">
@@ -44,6 +46,7 @@ export default function CTA() {
             >
               Start Project
             </Link>
+          </div>
           </div>
         </div>
       </div>

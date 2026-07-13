@@ -34,6 +34,8 @@ export default function Services() {
     backgroundImage: "url('/image/service-bg.png')",
   }}
 >
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/65" />
 
   {/* Content */}
   <div className="relative z-10">

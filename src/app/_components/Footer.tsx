@@ -38,12 +38,12 @@ export default function Footer() {
           {/* Logo */}
           <Link href="/">
             <Image
-              src="/images/logo.svg"
+              src="/image/logo.png"
               alt="Logo"
               width={180}
               height={56}
               priority
-              className="h-14 w-auto"
+              className="h-[50px] w-auto"
             />
           </Link>
 

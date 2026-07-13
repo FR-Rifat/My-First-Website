@@ -39,12 +39,15 @@ export default function WhyChoose() {
         <div className="border-x border-b border-neutral-800">
           {/* Header */}
           <div
-            className="border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 text-center md:px-20 xl:px-72"
+            className="relative overflow-hidden border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 text-center md:px-20 xl:px-72"
             style={{
               backgroundImage: "url('/image/Why-Choose.png')",
             }}
           >
-            <h2 className="text-4xl font-semibold text-white md:text-5xl">
+            {/* Dark Overlay */}
+            <div className="absolute inset-0 bg-black/65" />
+            <div className="relative z-10">
+              <h2 className="text-4xl font-semibold text-white md:text-5xl">
               Why Choose SquareUp?
             </h2>
 
@@ -53,6 +56,7 @@ export default function WhyChoose() {
               skilled professionals dedicated to delivering exceptional
               results.
             </p>
+            </div>
           </div>
 
           {/* Cards */}
