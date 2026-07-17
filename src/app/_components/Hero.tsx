@@ -44,14 +44,14 @@ export default function Hero() {
             {/* Buttons */}
             <div className="mt-12 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="#work"
+                href="./protfolio"
                 className="rounded-lg border border-neutral-800 bg-neutral-900/30 px-8 py-4 text-lg font-medium text-white backdrop-blur-md transition hover:bg-neutral-800"
               >
                 Our Works
               </Link>
 
               <Link
-                href="#contact"
+                href="./contect"
                 className="rounded-lg bg-lime-400 px-6 py-4 text-lg font-medium text-neutral-900 transition hover:bg-lime-300"
               >
                 Contact Us

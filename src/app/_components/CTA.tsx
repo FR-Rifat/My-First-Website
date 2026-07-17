@@ -41,7 +41,7 @@ export default function CTA() {
 
             {/* CTA Button */}
             <Link
-              href="/contact"
+              href="./contect"
               className="mt-12 rounded-lg bg-lime-400 px-8 py-4 text-lg font-medium text-neutral-900 transition-all duration-300 hover:scale-105 hover:bg-lime-300"
             >
               Start Project

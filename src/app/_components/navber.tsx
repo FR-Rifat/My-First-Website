@@ -12,7 +12,7 @@ const navLinks = [
   },
   {
     name: "Work",
-    href: "/work",
+    href: "./protfolio",
   },
   {
     name: "Process",
