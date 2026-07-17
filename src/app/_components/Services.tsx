@@ -54,12 +54,12 @@ export default function Services() {
             {services.map(({ title, description, icon: Icon }) => (
               <div
                 key={title}
-                className="flex flex-col justify-between p-8 xl:p-12"
+                className="flex flex-col justify-between p-8 xl:p-12 group transition-all duration-500"
               >
                 <div>
                   {/* Icon */}
-                  <div className="mb-10 flex h-16 w-16 items-center justify-center rounded-lg border border-neutral-800 bg-gradient-to-br from-lime-400/20 to-transparent">
-                    <Icon className="h-8 w-8 text-lime-400" />
+                  <div className="mb-10 flex h-16 w-16 items-center justify-center rounded-lg border border-neutral-800 bg-gradient-to-br from-lime-400/20 to-transparent transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:border-lime-400/50 group-hover:shadow-[0_0_25px_rgba(163,230,53,0.25)]">
+                    <Icon className="h-8 w-8 text-lime-400 transition-all duration-500 group-hover:scale-125 group-hover:rotate-12" />
                   </div>
 
                   {/* Content */}

@@ -13,15 +13,11 @@ export default function ServicesHero() {
 
   {/* Content */}
   <div className="relative z-10">
-    <span className="inline-flex rounded-full border border-lime-400/30 bg-lime-400/10 px-5 py-2 text-sm font-medium uppercase tracking-[0.2em] text-lime-400">
-      Our Services
-    </span>
-
     <h1 className="mt-8 text-4xl font-semibold text-white md:text-5xl xl:text-6xl">
       Our Services
     </h1>
 
-    <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-neutral-300">
+    <p className="mx-auto mt-6 text-lg leading-8 text-neutral-300">
       Transform your brand with our innovative digital solutions that
       captivate and engage your audience.
     </p>
