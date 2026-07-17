@@ -60,7 +60,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <Link
-          href="/contact"
+          href="./contect"
           className="rounded-lg bg-lime-400 px-6 py-3 text-lg font-medium text-neutral-900 transition hover:bg-lime-300"
         >
           Contact Us
