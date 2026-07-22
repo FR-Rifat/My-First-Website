@@ -19,7 +19,7 @@ export default function CTA() {
               <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-lime-400 shadow-[inset_0_0_14px_6px_rgba(255,255,255,0.45)]">
                 <Image
                   src="/image/logo-icon.svg"
-                  alt="SquareUp Logo"
+                  alt="Tyrand Logo"
                   width={42}
                   height={42}
                   className="h-10 w-auto"
@@ -29,7 +29,7 @@ export default function CTA() {
 
             {/* Heading */}
             <h2 className="text-3xl font-semibold leading-tight text-white md:text-4xl xl:text-5xl">
-              Thank You for Your Interest in SquareUp
+              Thank You for Your Interest in Tyrand
             </h2>
 
             {/* Description */}

@@ -14,7 +14,7 @@ export default function ContactInfo() {
               className="text-xl font-medium leading-8 text-neutral-200"
               style={{ fontFamily: "Barlow, sans-serif" }}
             >
-              hello@squareup.com
+              hello@Tyrand.com
             </p>
           </div>
 

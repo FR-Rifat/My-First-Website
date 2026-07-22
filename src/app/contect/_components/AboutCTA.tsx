@@ -16,7 +16,7 @@ export default function AboutCTA() {
           {/* Text */}
           <div className="flex flex-1 flex-col gap-5">
             <h2 className="text-2xl font-medium text-neutral-400 lg:text-3xl">
-              Today, SquareUp Continues to Thrive as a Leading Digital Product
+              Today, Tyrand Continues to Thrive as a Leading Digital Product
               Agency.....
             </h2>
 
@@ -33,7 +33,7 @@ export default function AboutCTA() {
         <div className="flex flex-col gap-6 rounded-xl border border-neutral-800 bg-neutral-800/20 p-6 backdrop-blur-md lg:flex-row lg:items-center lg:justify-between lg:px-10">
           <div className="flex flex-1 flex-col gap-4 lg:flex-row lg:items-center">
             <h3 className="text-xl text-neutral-400">
-              Welcome to SquareUp
+              Welcome to Tyrand
             </h3>
 
             <div className="rounded-lg bg-neutral-800 px-5 py-4">

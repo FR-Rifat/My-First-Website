@@ -5,7 +5,7 @@ const services = [
   {
     title: "Design",
     description:
-      "At SquareUp, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe great design is about creating seamless and intuitive user experiences.",
+      "At Tyrand, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe great design is about creating seamless and intuitive user experiences.",
     icon: Brush,
   },
   {
@@ -31,7 +31,7 @@ export default function Services() {
        <div
   className="relative overflow-hidden border-b border-neutral-800 bg-cover bg-center bg-no-repeat px-6 py-20 text-center md:px-20 xl:px-72"
   style={{
-    backgroundImage: "url('/image/service-bg.png')",
+    backgroundImage: "url('./image/service-bg.png')",
   }}
 >
   {/* Dark Overlay */}

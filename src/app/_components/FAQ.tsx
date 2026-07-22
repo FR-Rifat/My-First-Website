@@ -5,23 +5,23 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "What services does SquareUp provide?",
+    question: "What services does Tyrand provide?",
     answer:
-      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+      "Tyrand offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
   },
   {
-    question: "How can SquareUp help my business?",
+    question: "How can Tyrand help my business?",
     answer:
       "We help businesses build modern digital products that improve customer experience, increase conversions, and accelerate growth.",
   },
   {
-    question: "What industries does SquareUp work with?",
+    question: "What industries does Tyrand work with?",
     answer:
       "We work with startups, SaaS companies, healthcare, finance, education, e-commerce, real estate, and enterprise organizations.",
   },
   {
     question:
-      "How long does it take to complete a project with SquareUp?",
+      "How long does it take to complete a project with Tyrand?",
     answer:
       "Project timelines depend on complexity, but most projects are completed within 4–12 weeks.",
   },
@@ -75,7 +75,7 @@ export default function FAQ() {
             <p className="mt-4 text-lg text-neutral-300">
               Still have any questions? Contact our team via{" "}
               <span className="text-lime-400 cursor-pointer">
-                hello@squareup.com
+                hello@Tyrand.com
               </span>
             </p>
             </div>

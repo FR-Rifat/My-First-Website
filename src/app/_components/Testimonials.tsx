@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 const testimonials = [
   {
     title:
-      "SquareUp has been Instrumental in Transforming our Online Presence.",
+      "Tyrand has been Instrumental in Transforming our Online Presence.",
     description:
       "Their team&apos;s expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn&apos;t be happier.",
     name: "John Smith",
@@ -14,9 +14,9 @@ const testimonials = [
     website: "#",
   },
   {
-    title: "Working with SquareUp was a breeze.",
+    title: "Working with Tyrand was a breeze.",
     description:
-      "They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.",
+      "They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. Tyrand is a trusted partner we highly recommend.",
     name: "Sarah Johnson",
     role: "Founder of HungryBites",
     image: "/image/client-2.png",
@@ -43,7 +43,7 @@ export default function Testimonials() {
             </h2>
 
             <p className="mx-auto mt-4 max-w-4xl text-lg leading-8 text-neutral-300">
-              At SquareUp, we take pride in delivering exceptional digital
+              At Tyrand, we take pride in delivering exceptional digital
               products and services that drive success for our clients. Here&apos;s
               what some of our satisfied clients have to say.
             </p>

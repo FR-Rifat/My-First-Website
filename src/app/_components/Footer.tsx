@@ -90,7 +90,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 border-b border-neutral-800 pb-3">
               <Mail className="h-5 w-5 text-lime-400" />
               <span className="text-neutral-200">
-                hello@squareup.com
+                hello@Tyrand.com
               </span>
             </div>
 
@@ -111,7 +111,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-neutral-400">
-            © 2023 SquareUp. All rights reserved.
+            © 2023 Tyrand. All rights reserved.
           </p>
         </div>
       </div>

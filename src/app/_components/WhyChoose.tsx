@@ -48,7 +48,7 @@ export default function WhyChoose() {
             <div className="absolute inset-0 bg-black/65" />
             <div className="relative z-10">
               <h2 className="text-4xl font-semibold text-white md:text-5xl">
-              Why Choose SquareUp?
+              Why Choose Tyrand?
             </h2>
 
             <p className="mx-auto mt-3 text-lg leading-7 text-neutral-300">

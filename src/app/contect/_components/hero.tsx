@@ -19,7 +19,7 @@ export default function ContactUs() {
             </h2>
 
             <p className="mx-auto mt-4 max-w-4xl text-lg leading-8 text-neutral-300">
-              At SquareUp, we take pride in delivering exceptional digital
+              At Tyrand, we take pride in delivering exceptional digital
               products and services that drive success for our clients. Here&apos;s
               what some of our satisfied clients have to say.
             </p>

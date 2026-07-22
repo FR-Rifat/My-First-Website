@@ -53,7 +53,7 @@ export default function DesignServices() {
           </h2>
 
           <p className="text-lg leading-7 text-neutral-200">
-            At SquareUp, our design team is passionate about creating
+            At Tyrand, our design team is passionate about creating
             stunning, user-centric designs that captivate your audience
             and elevate your brand. We believe that great design is not
             just about aesthetics; it is about creating seamless and

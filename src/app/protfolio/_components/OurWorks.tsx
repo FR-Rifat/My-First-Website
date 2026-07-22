@@ -29,7 +29,7 @@ export default function OurWorks() {
       <div className="px-12">
         <div className="max-w-4xl space-y-4">
           <h2 className="text-5xl font-semibold text-white">
-            At SquareUp
+            At Tyrand
           </h2>
 
           <p className="text-lg leading-7 text-neutral-200">
